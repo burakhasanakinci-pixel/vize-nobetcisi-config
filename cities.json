@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-07T16:53:52.405Z",
+  "cities": [
+    {
+      "key": "ankara",
+      "name": "Ankara",
+      "nameEn": "Ankara"
+    },
+    {
+      "key": "istanbul",
+      "name": "İstanbul",
+      "nameEn": "Istanbul"
+    },
+    {
+      "key": "izmir",
+      "name": "İzmir",
+      "nameEn": "Izmir"
+    },
+    {
+      "key": "antalya",
+      "name": "Antalya",
+      "nameEn": "Antalya"
+    },
+    {
+      "key": "adana",
+      "name": "Adana",
+      "nameEn": "Adana"
+    },
+    {
+      "key": "bursa",
+      "name": "Bursa",
+      "nameEn": "Bursa"
+    },
+    {
+      "key": "trabzon",
+      "name": "Trabzon",
+      "nameEn": "Trabzon"
+    },
+    {
+      "key": "gaziantep",
+      "name": "Gaziantep",
+      "nameEn": "Gaziantep"
+    }
+  ]
+}
