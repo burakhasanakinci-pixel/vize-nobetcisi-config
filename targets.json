@@ -1,5 +1,5 @@
 {
-  "_aciklama": "Paylaşılan şehir/ülke konfigürasyonu. flows: her ülke (26); cityFlow:false olanlar yalnızca genel tarayıcı içindir. Şehir hedefleri: 192. 'enabled' listesine \"ülke-şehir\" id ekleyerek aktifleştirilir.",
+  "_aciklama": "Paylaşılan şehir/ülke konfigürasyonu. flows: her ülke (26) + visaTypes: taranacak vize türleri. cityFlow:false olanlar yalnızca genel tarayıcı içindir. Hedef id biçimi: \"ülke-şehir-vizetürü\". Toplam hedef: 1152. enabledAll=true → TÜM ülkeler/şehirler/vize türleri aktif (vfs-bot dönüşümlü tarar).",
   "cities": [
     {
       "key": "ankara",
@@ -65,6 +65,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -89,6 +127,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -113,6 +189,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -137,6 +251,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -177,6 +329,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -201,6 +391,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -225,6 +453,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -249,6 +515,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -273,6 +577,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -297,6 +639,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -321,6 +701,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -345,6 +763,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -369,6 +825,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -393,6 +887,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -417,6 +949,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -441,6 +1011,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -465,6 +1073,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -489,6 +1135,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -513,6 +1197,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -537,6 +1259,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -561,6 +1321,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -585,6 +1383,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -609,6 +1445,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -633,6 +1507,44 @@
         "bursa",
         "trabzon",
         "gaziantep"
+      ],
+      "visaTypes": [
+        {
+          "key": "tourist",
+          "label": "Turist",
+          "labelEn": "Tourist",
+          "option": ""
+        },
+        {
+          "key": "longterm",
+          "label": "Uzun Süreli",
+          "labelEn": "Long Term",
+          "option": ""
+        },
+        {
+          "key": "student",
+          "label": "Öğrenci",
+          "labelEn": "Student",
+          "option": ""
+        },
+        {
+          "key": "work",
+          "label": "Çalışma",
+          "labelEn": "Work",
+          "option": ""
+        },
+        {
+          "key": "family",
+          "label": "Aile",
+          "labelEn": "Family",
+          "option": ""
+        },
+        {
+          "key": "other",
+          "label": "Diğer",
+          "labelEn": "Other",
+          "option": ""
+        }
       ]
     },
     {
@@ -652,13 +1564,6 @@
       "cities": []
     }
   ],
-  "enabled": [
-    "fransa-ankara",
-    "fransa-istanbul",
-    "almanya-ankara",
-    "almanya-istanbul",
-    "italya-ankara",
-    "belcika-ankara",
-    "belcika-istanbul"
-  ]
+  "enabledAll": true,
+  "enabled": []
 }
